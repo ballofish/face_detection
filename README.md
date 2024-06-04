@@ -1,5 +1,5 @@
-# 목표 : 영상 데이터에서 인물의 감정을 판별
-## 목적 : AI를 활용한 CV 고도화 (face detection, emotion recognition)
+# 목표 : 영상 데이터에서 인물의 감정 판별
+## 목적 : AI를 통한 CV 활용 (face detection, emotion recognition)
 ### 수행 환경 : Windows 10, Pycharm
 ### 기술 스택 : Python3 / 
 
