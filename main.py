@@ -1,16 +1,20 @@
-# This is a sample Python script.
+def video_check(video_path : str) -> None:
+    from vid_property import property_out
+    property_out(video_path)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def video_path_out():
+    from os import path
+    return '/'.join([path.abspath('.').replace('\\', '/'), 'vid_src', 'clip_00.mp4'])
+def main():
+    video_path = video_path_out()
+    video_check(video_path)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
+    # import cProfile
+    # cProfile.run("main()")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # import time
+    # start_time = time.process_time()
+    # end_time = time.process_time()
+    # print(end_time - start_time)
