@@ -13,8 +13,8 @@
   7. Hit에 대해 특징점 확인 및 분석
 
 프로젝트 구조
-main
-- vid_src
+> main
+> > vid_src
 a
 1. 영상 데이터셋 수집
   AI Hub (https://www.aihub.or.kr/) : 장면인식‧인물인식을 위한 방송 영상 콘텐츠
