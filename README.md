@@ -14,7 +14,7 @@
 
 프로젝트 구조
 main
-  vid_src
+&emsp;vid_src
   
 
 
